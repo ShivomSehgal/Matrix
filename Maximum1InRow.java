@@ -22,7 +22,7 @@ Explanation: Row 1 contains 2 1's (0-based
 indexing).
 
 
-
+// Optimal approach --> Time - O(nLogm), Space - O(1)
 
 class Solution {
     int rowWithMax1s(int arr[][], int n, int m) {
@@ -59,3 +59,6 @@ class Solution {
         return m;
     }
 }
+
+// Brute force approach --> Time - O(n*m), Space - O(m) ~ O(1)
+// Traverse array and find all the values of the row and put them in corresponding array index 
